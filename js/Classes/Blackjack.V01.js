@@ -52,12 +52,12 @@ class Blackjack {
     // }
 
      // **##** TEST **##** Insert specific cards into shoe ***###***
-    //  this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
-    //  this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
-    //  this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
-    //  this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
-    //  this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
-    //  this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
+     this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
+     this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
+     this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
+     this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
+     this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
+     this.shoe.push({ src: "3-of-Clubs.png", value: 3, numVal: 3 });
 
 
     // make the DOM elements
