@@ -26,14 +26,14 @@ class Blackjack {
     } // ~.for suits
 
     // Spread Operator - copies arrays
-    // this.shoe = [...this.deck, ...this.deck, ...this.deck, ...this.deck, ...this.deck, ...this.deck,]
+    this.shoe = [...this.deck, ...this.deck, ...this.deck, ...this.deck, ...this.deck, ...this.deck,]
 
      // **##** TEST **##**  Ace loaded Shoe  ***###***
-     this.shoe = this.deck
-     for (let index = 0; index < 52; index++) {
-         this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
+    //  this.shoe = this.deck
+    //  for (let index = 0; index < 52; index++) {
+    //      this.shoe.push({ src: "Ace-of-Clubs.png", value: "Ace", numVal: 11 });
 
-     }
+    //  }
 
 
 
